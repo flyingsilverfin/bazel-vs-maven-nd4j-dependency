@@ -1,0 +1,6 @@
+# Bazel files #
+bazel-*
+
+# Intellij files #
+*.ijwb
+*.iml
