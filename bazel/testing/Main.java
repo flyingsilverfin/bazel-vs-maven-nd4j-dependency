@@ -1,16 +1,14 @@
 package testing;
 
-
-// apache works
-import org.apache.commons.math3.random.RandomDataGenerator;
+import org.nd4j.linalg.api.ndarray.INDArray;
+import org.nd4j.linalg.factory.Nd4j;
 
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("hello world");
-        RandomDataGenerator rand = new RandomDataGenerator();
-        long n = rand.nextLong(0, 100);
-        System.out.println("Generated: ");
-        System.out.println(n);
+        INDArray identity = Nd4j.eye(100);
+        Number sum = identity.sumNumber();
+        System.out.println(sum);
+
     }
 }
