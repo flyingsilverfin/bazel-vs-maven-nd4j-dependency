@@ -37,6 +37,11 @@ dependencies:
       version: 3.4.1
       lang: java
 
+  junit:
+    junit:
+      version: "4.12"
+      lang: java
+
   org.nd4j:
     nd4j-native:
       version: "1.0.0-beta3"
